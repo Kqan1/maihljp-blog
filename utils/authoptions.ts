@@ -51,8 +51,6 @@ export const authOptions: NextAuthOptions = {
                     emailVerified: dbUser.emailVerified,
                     image: dbUser.image,
                     password: dbUser.password,
-                    banner: dbUser.banner,
-                    role: dbUser.role,
                     createdAt: dbUser.createdAt,
                     updatedAt: dbUser.updatedAt
                 };
@@ -70,8 +68,6 @@ export const authOptions: NextAuthOptions = {
                     email: token.email,
                     emailVerified: token.emailVerified,
                     password: token.password,
-                    banner: token.banner,
-                    role: token.role,
                     createdAt: token.createdAt,
                     updatedAt: token.updatedAt
                 },
@@ -87,8 +83,6 @@ export const authOptions: NextAuthOptions = {
                     email: u.email,
                     emailVerified: u.emailVerified,
                     password: u.password,
-                    banner: u.banner,
-                    role: u.role,
                     createdAt: u.createdAt,
                     updatedAt: u.updatedAt
                 };

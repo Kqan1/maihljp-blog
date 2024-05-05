@@ -5,7 +5,7 @@ import { Instagram, LucideIcon, Twitter, Youtube } from "lucide-react";
 
 export default function Footer() {
     return (
-        <footer className="flex items-center justify-center py-2 gap-4 divide-x divide-zinc-700/60">
+        <footer className="flex flex-col md:flex-row items-center justify-center h-11 py-2 gap-2 md:gap-4 md:divide-x border-zinc-200/60 dark:border-zinc-700/40">
             <span className="">
                 &copy; MAİHLJP 2024 - {new Date().getFullYear()}
             </span>

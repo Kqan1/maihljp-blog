@@ -2,7 +2,7 @@ export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
     metadata: {
-        title: "Marmara AİHL Japonya",
+        title: "Marmara AİHL Japonca",
         description: "Kqan_",
         applicationName: "Zencistan",
         author: "Kqan",
